@@ -1,0 +1,28 @@
+{
+  "Print DevMountain Contributions": {
+    "prefix": "contribs",
+    "body": [
+      "## Contributions\n\nIf you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.\n\n## Copyright\n\n© DevMountain LLC, 2017. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.\n\n<p align=\"center\">\n<img src=\"https://devmounta.in/img/logowhiteblue.png\" width=\"250\">\n</p>",
+      "$0"
+    ],
+    "description": "Prints the markdown for DevMountains Contributions."
+  },
+
+  "Print Details Section": {
+    "prefix": "pd",
+    "body": "<details>\n\n<summary> $1 </summary>\n\n$0\n\n</details>",
+    "description": "Prints a details section."
+  },
+
+  "Print Code Details Section": {
+    "prefix": "pdc",
+    "body": "<details>\n\n<summary> <code> $1 </code> </summary>\n\n```$2\n$0\n```\n\n</details>",
+    "description": "Prints a code details section."
+  },
+
+  "Print DevMountain logo": {
+    "prefix": "plogo",
+    "body": "<img src=\"https://devmounta.in/img/logowhiteblue.png\" width=\"250\">\n\n$0",
+    "description": "Prints an <img> tag of DevMountain logo."
+  }
+}
